@@ -1,0 +1,23 @@
+{
+  "name": "secrets-webapp",
+  "version": "1.0.0",
+  "description": "web app that can hide secrets",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Ankush Negi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "ejs": "^3.1.8",
+    "express": "^4.16.4",
+    "md5": "^2.3.0",
+    "mongoose": "^5.4.5",
+    "mongoose-encryption": "^2.0.1",
+    "node-enigma": "^1.2.1",
+    "nodemon": "^2.0.20"
+  }
+}
